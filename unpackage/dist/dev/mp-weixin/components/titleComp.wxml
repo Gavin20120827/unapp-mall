@@ -1,0 +1,1 @@
+<view class="Newest-title-block"><view class="Newest-title-left">{{titleCompText}}</view><view class="Newest-title-right"><view class="Newest-title-right-test">更多</view><image class="Newest-title-image" src="../static/news/right.png" mode="widthFix"></image></view></view>

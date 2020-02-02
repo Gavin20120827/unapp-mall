@@ -1,0 +1,26 @@
+.about-content-block{
+	display: flex;
+	justify-content: space-between;
+	align-items:center;
+	border: 1px solid #f7f7f7;
+	height: 100upx;
+	margin-top: 30upx;
+}
+
+.about-content-left{
+	display: flex;
+	align-items:center;
+	
+}
+
+.content-image,.content-image-right{
+	width: 40upx;
+}
+
+.content-image,.content-text{
+	padding-left: 30upx;
+}
+
+.content-image-right{
+	padding-right: 30upx;
+}

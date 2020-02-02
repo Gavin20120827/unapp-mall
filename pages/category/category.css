@@ -1,0 +1,43 @@
+.content{
+	display: flex;
+	justify-content: flex-start;
+}
+
+.category-text-block{
+	width: 22%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+.category-text-content{
+	margin-bottom: 20upx;
+	padding-bottom: 10upx;
+}
+
+.category-product-block{
+	width: 78%;
+	height: 100%;
+	
+	/* position: absolute; */
+}
+
+/* 重写销售排行组建的字体大小 */
+.sales-product-title{
+	font-size: 30upx;
+}
+
+.sales-product-desc{
+	font-size: 20upx;
+}
+
+.sales-bottom-num,.sales-bottom-people,.sales-bottom-price{
+	font-size: 25upx;
+}
+
+.category-text-content{
+	font-size: 30upx;
+	border-bottom: 1px solid #C8C7CC;
+	padding-left: 10upx;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "uni-app",
+  "usingComponents": {
+    "title-comp": "/components/titleComp",
+    "sales-pro-comp": "/components/salesProComp"
+  }
+}

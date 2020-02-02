@@ -1,0 +1,47 @@
+.content{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	        justify-content: flex-start;
+}
+.category-text-block{
+	width: 22%;
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+}
+.category-text-content{
+	margin-bottom: 20rpx;
+	padding-bottom: 10rpx;
+}
+.category-product-block{
+	width: 78%;
+	height: 100%;
+	
+	/* position: absolute; */
+}
+
+/* 重写销售排行组建的字体大小 */
+.sales-product-title{
+	font-size: 30rpx;
+}
+.sales-product-desc{
+	font-size: 20rpx;
+}
+.sales-bottom-num,.sales-bottom-people,.sales-bottom-price{
+	font-size: 25rpx;
+}
+.category-text-content{
+	font-size: 30rpx;
+	border-bottom: 1px solid #C8C7CC;
+	padding-left: 10rpx;
+}
+
+

@@ -1,0 +1,106 @@
+/* 轮播图开始 */
+.swiper-block{
+	width: 100%;
+	height: 440rpx;
+}
+.swiper-image{
+	width: 100%;
+}
+/* 轮播图结束 */
+/* 菜单开始 */
+.menu-block{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	margin-top: 20rpx;
+	margin-bottom: 15rpx;
+	padding-top: 10rpx;
+}
+.menu-content{
+	margin-bottom: 30rpx;
+	margin-left: 30rpx;
+}
+.menu-image{
+	width: 150rpx;
+}
+/* 菜单结束 */
+/* 资讯开始 */
+.news-block{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	margin-top: 5rpx;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	padding-top: 10rpx;
+}
+.news-content-left{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.news-content{
+	margin-left: 10rpx;
+}
+.news-image{
+	width: 50rpx;
+}
+.news-image-right{
+	width: 40rpx;
+}
+.news-content-right{
+	padding-right: 10rpx;
+}
+.news-title{
+	width: 400rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* 资讯结束 */
+/* 最新产品开始 */
+.Newest-product-block{
+	margin-top: 20rpx;
+}
+/* 最新产品内容开始 */
+.Newest-product-content-block{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	-webkit-box-pack: space-evenly;
+	-webkit-justify-content: space-evenly;
+	        justify-content: space-evenly;
+	margin-top: 40rpx;
+}
+.Newest-product-content{
+	margin-bottom: 30rpx;
+}
+.Newest-product-image{
+	width:320rpx;
+}
+.Newest-product-title{
+	width: 320rpx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.Newest-product-price{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	color: red;
+	padding-top: 10rpx;
+}
+/* 最新产品内容结束 */
+/* 最新产品结束 */
+/* 销售排行内容开始 */
+.sales-product-block{
+		background-color: #ffffff;
+}
+/* 销售排行内容结束 */
+

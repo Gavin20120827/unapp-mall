@@ -1,0 +1,112 @@
+/* 轮播图开始 */
+.swiper-block{
+	width: 100%;
+	height: 440upx;
+}
+
+.swiper-image{
+	width: 100%;
+}
+/* 轮播图结束 */
+
+/* 菜单开始 */
+.menu-block{
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 20upx;
+	margin-bottom: 15upx;
+	padding-top: 10upx;
+}
+
+.menu-content{
+	margin-bottom: 30upx;
+	margin-left: 30upx;
+}
+
+.menu-image{
+	width: 150upx;
+}
+/* 菜单结束 */
+
+
+/* 资讯开始 */
+.news-block{
+	display: flex;
+	margin-top: 5upx;
+	justify-content: space-between;
+	padding-top: 10upx;
+}
+
+.news-content-left{
+	display: flex;
+}
+
+.news-content{
+	margin-left: 10upx;
+}
+
+.news-image{
+	width: 50upx;
+}
+
+.news-image-right{
+	width: 40upx;
+}
+
+.news-content-right{
+	padding-right: 10upx;
+}
+
+.news-title{
+	width: 400upx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+/* 资讯结束 */
+
+
+
+/* 最新产品开始 */
+.Newest-product-block{
+	margin-top: 20upx;
+}
+
+
+/* 最新产品内容开始 */
+.Newest-product-content-block{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 40upx;
+}
+
+.Newest-product-content{
+	margin-bottom: 30upx;
+	
+}
+
+.Newest-product-image{
+	width:320upx;
+}
+
+.Newest-product-title{
+	width: 320upx;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.Newest-product-price{
+	display: flex;
+	color: red;
+	padding-top: 10upx;
+}
+/* 最新产品内容结束 */
+/* 最新产品结束 */
+
+/* 销售排行内容开始 */
+	.sales-product-block{
+		background-color: #ffffff;
+	}
+/* 销售排行内容结束 */
