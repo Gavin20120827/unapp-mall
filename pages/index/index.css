@@ -14,17 +14,26 @@
 	display: flex;
 	flex-wrap: wrap;
 	margin-top: 20upx;
-	margin-bottom: 15upx;
+	margin-bottom: 15upx; 
 	padding-top: 10upx;
 }
 
 .menu-content{
-	margin-bottom: 30upx;
-	margin-left: 30upx;
+	width: 25%;
+	padding: 5px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	
 }
 
 .menu-image{
-	width: 150upx;
+	width: 66%;
+	align-self: center;
+}
+
+.menu-text{
+	align-self: center;
 }
 /* 菜单结束 */
 
@@ -32,33 +41,22 @@
 /* 资讯开始 */
 .news-block{
 	display: flex;
+	align-items: center;
 	margin-top: 5upx;
-	justify-content: space-between;
 	padding-top: 10upx;
 }
 
-.news-content-left{
-	display: flex;
-}
-
-.news-content{
-	margin-left: 10upx;
-}
-
 .news-image{
-	width: 50upx;
+	width: 44upx;
 }
 
 .news-image-right{
-	width: 40upx;
-}
-
-.news-content-right{
-	padding-right: 10upx;
+	width: 26upx;
+	padding-right: 20upx;
 }
 
 .news-title{
-	width: 400upx;
+	flex-grow: 1;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -77,31 +75,43 @@
 .Newest-product-content-block{
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-evenly;
-	margin-top: 40upx;
 }
 
 .Newest-product-content{
-	margin-bottom: 30upx;
-	
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+	box-sizing: border-box;
 }
 
 .Newest-product-image{
-	width:320upx;
+	width: 100%;
+	border: 1px solid #fcfafa;
+	border-radius: 5px;
+	box-shadow: 0px 2px 2px gainsboro;
+	padding: 5px;
+	box-sizing: border-box;
 }
 
 .Newest-product-title{
-	width: 320upx;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
+	font-size: 12px;
+	padding: 3px;
 }
 
-.Newest-product-price{
-	display: flex;
-	color: red;
-	padding-top: 10upx;
+.Newest-price-text{
+	font-size: 10px;
+	color: gray;
 }
+
+.Newest-price-num{
+	color: red;
+	padding: 3px;
+}
+
 /* 最新产品内容结束 */
 /* 最新产品结束 */
 

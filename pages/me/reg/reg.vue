@@ -1,15 +1,15 @@
 <template>
 	<form class="form-block page">
-		<view class="form-title">请输入您的会员账号</view>
+		<view class="form-title">欢迎注册您的账号</view>
 		<view class="form-input">
 			<input type="text" name="username" value="" class="username form-class" placeholder="请输入账号"/>
 			<input type="text" name="password" placeholder="请输入密码" class="password form-class"/>
+			<input type="text" name="password" placeholder="请确认您的密码" class="password form-class"/>
+			
 		</view>
 		<view class="form-button-block">
 			<view class="form-desc">请正确填写账号信息，有问题联系客服</view>
-			<button type="primary" class="form-login">登录</button>
-			<button type="primary" class="form-reg" @click="reg">注册新用户</button>
-			<button type="warn" class="form-logout" open-type="getUserInfo" @getuserinfo="">微信登录</button>
+			<button type="primary" class="form-reg" @click="">注册新用户</button>
 		</view>
 	</form>
 </template>
@@ -22,16 +22,11 @@
 			}
 		},
 		methods: {
-			reg:function(){
-				uni.navigateTo({
-					url: '/pages/me/reg/reg'
-				});
-			}
+			
 		}
 	}
 </script>
 
 <style>
-@import url("me.css");
-
+@import url("reg.css");
 </style>

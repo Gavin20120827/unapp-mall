@@ -15,15 +15,29 @@
 	-webkit-flex-wrap: wrap;
 	        flex-wrap: wrap;
 	margin-top: 20rpx;
-	margin-bottom: 15rpx;
+	margin-bottom: 15rpx; 
 	padding-top: 10rpx;
 }
 .menu-content{
-	margin-bottom: 30rpx;
-	margin-left: 30rpx;
+	width: 25%;
+	padding: 5px;
+	box-sizing: border-box;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
 }
 .menu-image{
-	width: 150rpx;
+	width: 66%;
+	-webkit-align-self: center;
+	        align-self: center;
+}
+.menu-text{
+	-webkit-align-self: center;
+	        align-self: center;
 }
 /* 菜单结束 */
 /* 资讯开始 */
@@ -31,31 +45,23 @@
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
 	margin-top: 5rpx;
-	-webkit-box-pack: justify;
-	-webkit-justify-content: space-between;
-	        justify-content: space-between;
 	padding-top: 10rpx;
 }
-.news-content-left{
-	display: -webkit-box;
-	display: -webkit-flex;
-	display: flex;
-}
-.news-content{
-	margin-left: 10rpx;
-}
 .news-image{
-	width: 50rpx;
+	width: 44rpx;
 }
 .news-image-right{
-	width: 40rpx;
-}
-.news-content-right{
-	padding-right: 10rpx;
+	width: 26rpx;
+	padding-right: 20rpx;
 }
 .news-title{
-	width: 400rpx;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	        flex-grow: 1;
 	white-space: nowrap;
 	overflow: hidden;
 	text-overflow: ellipsis;
@@ -72,29 +78,41 @@
 	display: flex;
 	-webkit-flex-wrap: wrap;
 	        flex-wrap: wrap;
-	-webkit-box-pack: space-evenly;
-	-webkit-justify-content: space-evenly;
-	        justify-content: space-evenly;
-	margin-top: 40rpx;
 }
 .Newest-product-content{
-	margin-bottom: 30rpx;
-}
-.Newest-product-image{
-	width:320rpx;
-}
-.Newest-product-title{
-	width: 320rpx;
-	white-space: nowrap;
-	overflow: hidden;
-	text-overflow: ellipsis;
-}
-.Newest-product-price{
+	width: 50%;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.Newest-product-image{
+	width: 100%;
+	border: 1px solid #fcfafa;
+	border-radius: 5px;
+	box-shadow: 0px 2px 2px gainsboro;
+	padding: 5px;
+	box-sizing: border-box;
+}
+.Newest-product-title{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 12px;
+	padding: 3px;
+}
+.Newest-price-text{
+	font-size: 10px;
+	color: gray;
+}
+.Newest-price-num{
 	color: red;
-	padding-top: 10rpx;
+	padding: 3px;
 }
 /* 最新产品内容结束 */
 /* 最新产品结束 */

@@ -1,7 +1,7 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-		    "path" : "pages/about/about",
+		    "path" : "pages/me/me",
 		    "style" : {}
 		},
 		{
@@ -14,18 +14,23 @@
             "path" : "pages/category/category",
             "style" : {}
         }
-        ,{
-            "path" : "pages/me/me",
-            "style" : {}
-        }
+        // ,{
+        //     "path" : "pages/me/me",
+        //     "style" : {}
+        // }
         ,{
             "path" : "pages/cart/cart",
             "style" : {}
         }
-        // ,{
-        //     "path" : "pages/about/about",
-        //     "style" : {}
-        // }
+        ,{
+            "path" : "pages/about/about",
+            "style" : {}
+        }
+
+        ,{
+            "path" : "pages/me/reg/reg",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

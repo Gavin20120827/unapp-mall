@@ -1,10 +1,8 @@
 <template name = "titleComp">
 	<view class="Newest-title-block">
+		<view class="Newest-title-border"></view>
 		<view class="Newest-title-left">{{titleCompText}}</view>
-		<view class="Newest-title-right">
-			<view class="Newest-title-right-test">更多</view>
-			<image src="../static/news/right.png" class="Newest-title-image" mode="widthFix"></image>
-		</view>
+		<view class="Newest-title-right">更多></view>
 	</view>
 </template>
 
@@ -28,27 +26,28 @@
 	/* 最新产品标题开始 */
 	.Newest-title-block{
 		display: flex;
-		justify-content: space-between;
-		background-color: #F0AD4E;
-		padding: 10upx;
-		font-size:40upx;
-		height: 60upx;
+		align-items: center;
+		background-color: aliceblue;
+	}
+	
+	.Newest-title-border{
+		width: 3px;
+		height: 18px;
+		background-color: green;
+		margin: 5px;
+		box-shadow: 2px 2px 2px gainsboro;
 	}
 	
 	.Newest-title-left{
-		margin-left: 20upx;
-		border-left: 5px solid red;
-		padding-left: 20upx;
+		flex-grow: 1;
+		color: gray;
+		text-shadow: 1px 1px 1px gainsboro;
 	}
 	
 	.Newest-title-right{
-		display: flex;
-		padding-right: 20upx;
-	}
-	
-	.Newest-title-image{
-		width: 50upx;
-		padding-top: 5upx;
+		margin-right: 5px;
+		color: gray;
+		text-shadow: 2px 2px 2px gainsboro;
 	}
 	/* 最新产品标题结束 */
 
