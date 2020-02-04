@@ -18,14 +18,18 @@
 	        flex-direction: column;
 }
 .category-text-content{
-	margin-bottom: 20rpx;
-	padding-bottom: 10rpx;
+	height: 80rpx;
+    padding-top: 25rpx;
+    text-align: center;
 }
 .category-product-block{
 	width: 78%;
 	height: 100%;
 	
 	/* position: absolute; */
+}
+.checkColor{
+	background-color: white;
 }
 
 /* 重写销售排行组建的字体大小 */

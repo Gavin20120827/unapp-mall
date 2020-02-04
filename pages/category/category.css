@@ -11,8 +11,10 @@
 }
 
 .category-text-content{
-	margin-bottom: 20upx;
-	padding-bottom: 10upx;
+	height: 80upx;
+    padding-top: 25upx;
+    text-align: center;
+	
 }
 
 .category-product-block{
@@ -20,6 +22,10 @@
 	height: 100%;
 	
 	/* position: absolute; */
+}
+
+.checkColor{
+	background-color: white;
 }
 
 /* 重写销售排行组建的字体大小 */
