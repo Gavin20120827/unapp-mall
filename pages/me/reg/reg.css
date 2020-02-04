@@ -34,3 +34,7 @@
 		width: 80%;
 		margin: 5upx 0;
 	}
+	
+	.form-error{
+		color: red;
+	}

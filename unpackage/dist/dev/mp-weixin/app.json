@@ -1,11 +1,10 @@
 {
   "pages": [
-    "pages/me/me",
-    "pages/index/index",
     "pages/category/category",
+    "pages/index/index",
+    "pages/me/me",
     "pages/cart/cart",
-    "pages/about/about",
-    "pages/me/reg/reg"
+    "pages/about/about"
   ],
   "subPackages": [],
   "window": {
